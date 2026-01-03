@@ -54,10 +54,11 @@ Upload `IFP.ipynb` to Colab or open it directly from GitHub.
 ```python
 from google.colab import drive
 drive.mount('/content/drive')
+```
 3️⃣ Install Dependencies
-bash
-Copy code
+```python
 pip install ultralytics
+```
 🗂 Dataset Preparation
 Supports remapping original dataset classes into a reduced/custom set
 
@@ -72,8 +73,6 @@ Training parameters (epochs, batch size, image size) are configurable
 
 Training outputs are saved under:
 
-bash
-Copy code
 runs/detect/
 🔍 Model Testing & Inference
 Inference can be run on:
@@ -86,12 +85,12 @@ Bounding boxes and class labels are displayed directly in Colab.
 
 Example:
 
-python
-Copy code
+```python
 test_all_images_in_folder(
     '/content/drive/MyDrive/test-vehicles',
     max_images=20
 )
+```
 📊 Output
 Detected vehicles visualized with bounding boxes
 
