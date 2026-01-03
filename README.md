@@ -111,8 +111,5 @@ Vehicle counting and classification
 
 Edge AI and computer vision projects
 
-📜 License
-This project is intended for educational and research purposes.
-
 yaml
 Copy code
